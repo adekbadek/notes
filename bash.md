@@ -101,12 +101,12 @@ Bourne Again Shell
 ### Handy helpers
 
   - date formatting - `date +"<format string>"`, e.g. `date +"%d, %m, %Y"`
+  - `printf -v d` assigns the output to variable `d`
   - `printf` - lets you print out data with a particular format - e.g. `printf "Name:\t%s\nID:\t%04d\n" "Adam" "43"` will print
 ```
 Name:	Adam
 ID:	  0043
 ```
-    - `printf -v d` assigns the output to variable `d`
 
 ### Arrays
 
