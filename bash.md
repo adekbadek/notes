@@ -29,7 +29,7 @@ Bourne Again Shell
 
 
   - Expansions
-    - brace expansion: `touch file_{0..1000}` creates 1001 files, `echo {1..10..2}` - prints ints from 1 to 10, counting by 2's (1,3,5,7,9)
+    - brace expansion: `touch file_{0..1000}` creates 1001 files, `echo {1..10..2}` - prints ints from 1 to 10, counting by 2s (1,3,5,7,9)
 
 
   - Piping - pipe takes the result of one command and pipes it into another one, e.g. `ls | more` displays list of files with pagination
@@ -54,7 +54,7 @@ Bourne Again Shell
 
   - `name=Walpurgia`, `town="Little Bindle"`, `len=134` declare a variable
   - `declare -i d=32` marks that variable as an integer
-  - `declare -r d=32` marks that variable as an read-only
+  - `declare -r d=32` marks that variable as read-only
   - `declare -l d=LsadfW # => lsadfw` lowercases
   - `declare -u d=Lssdfw # => LSSDFW` uppercases
   - `$name` calls a variable
@@ -142,7 +142,7 @@ elif <expression 2>; then
 fi
 ```
 
-  - 'while' loop, can be reverse as with 'until' instead od while
+  - 'while' loop, can be reversed, as with 'until' instead of while
 ```bash
 while <expression>; do
       # ...
@@ -230,11 +230,11 @@ do
 done
 ```
 
-### Promting and defaults
+### Prompting and defaults
 
 ```bash
 if [ $# -lt 3 ]; then
-  echo "This command reqires three arguments"
+  echo "This command requires three arguments"
 else
   echo "All right, carry on"
 fi
