@@ -18,7 +18,7 @@
 
   Encrypts blocks of fixed-length data.
 
-  __AES__ (Advanced Encryption Standard) - multiple bit lengths (128, 192, 256)
+  __AES__ (Advanced Encryption Standard) - multiple bit lengths for the key (128, 192, 256). Blocks are always 128 bits long.
 
   "AES allows 128, 192 or 256 bit key length. That is 16, 24 or 32 byte." So a key longer than that has to be hashed first to fit. [More on keys here](https://github.com/ricmoo/aes-js#what-is-a-key).
 
