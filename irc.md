@@ -31,13 +31,13 @@ run `$ irssi`, then:
 - `/nick funny_name` to set your nick (by default it will be the computer user's name)
 - `/join super_channel` to join #super_channel
 - `/leave` to leave channel
-- `/msg my_friend hello there` to begin private messaging with your friend, identified by a nick an connected to the same server
+- `/msg my_friend hello there` to begin private messaging with your friend, identified by a nick and connected to the same server
 
 ## Security
 
-IRC is sending stuff in plaintext, so it's __not secure__. And your IP is usually visible to everyone else (use a VPN!)
+IRC is sending stuff in plaintext, so it's __not secure__. And client's IP is usually visible to everyone else (VPN to the rescue)
 
-Even if encryption is used by one client, other may not use it, and server operators can keep logs.
+Even if encryption is used by one client, others may not use it, and server operators can keep logs.
 
 
 --
