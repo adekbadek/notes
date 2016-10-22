@@ -31,3 +31,11 @@ done
 
 # write to markdown file
 echo -e "$file_start$root_files\n\n$dir_files" > 'README.md'
+
+# check if README changed and commit if it did
+readme_changes=$(git diff HEAD^^ README.md)
+if [[ ${#readme_changes} == 0 ]]; then
+  echo "no changes in file structure"
+else
+  git add "README.md" && git commit -m "update README"
+fi
