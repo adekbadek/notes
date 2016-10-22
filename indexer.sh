@@ -38,4 +38,6 @@ if [[ ${#readme_changes} == 0 ]]; then
   echo "no changes in file structure"
 else
   git add "README.md" && git commit -m "update README"
+  echo "changes in file structure, updated README, push again"
+  exit 1
 fi
