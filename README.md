@@ -2,6 +2,7 @@
 
 - [bash](bash.md)
 - [irc](irc.md)
+- [test4](test4.md)
 
 ## crypto 
 
