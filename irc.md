@@ -28,8 +28,8 @@ There are many IRC applications, a popular CLI app is [irssi](https://irssi.org/
 run `$ irssi`, then:
 
 - `/connect irc.freenode.net` to connect to a server
-- `/nick funny_name` to set your nick (by default it will be the computer user's name)
-- `/join super_channel` to join #super_channel
+- `/nick funny_name` to set your nick (by default it will be the computer user's name).
+- `/join super_channel` to join #super_channel. If there is no such channel, it will be created and the creator becomes it's operator (with an `@` in front of their nick).
 - `/leave` to leave channel
 - `/msg my_friend hello there` to begin private messaging with your friend, identified by a nick and connected to the same server
 
