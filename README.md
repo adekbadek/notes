@@ -20,6 +20,7 @@
 
 - [react](js/react.md)
 - [redux](js/redux.md)
+- [typescript](js/typescript.md)
 
 ## programming 
 
