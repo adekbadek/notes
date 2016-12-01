@@ -53,22 +53,48 @@ In Lambda Calculus, a function can take only one argument and return one value. 
 
 ### Currying
 
-translating the evaluation of a function that takes multiple arguments into a sequence of functions that take one argument.  
+Translating the evaluation of a function that takes multiple arguments into a sequence of functions that take one argument. In Haskell, all functions are curried by default.
+
+### Composing functions
+
+In Elm:
+
+```
+\n -> not (isEven (sqrt n))
+-- can be written as:
+not << isEven << sqrt
+```
+
+JS with [Ramda](http://ramdajs.com/):
+
+`f(g(arg))` is equivalent to `compose(f, g)(arg)`
 
 ### Point-free notation
 
 the arguments of the function being defined are not explicitly mentioned, the function is defined through function composition
 
+in Elm - `<<` operator:
+
 ```elm
 func1 value =
   (func2 << func3) value
-```
 
-can be written as
+-- can be written as:
 
-```elm
 func1 =
   (func2 << func3)
+```
+
+in JS with Ramda - `compose` function:
+
+```javascript
+const hasDogs = person => Boolean(person.dogCount)
+// ↓
+const hasDogs = person => Boolean(prop('dogCount', person))
+// ↓
+const hasDogs = person => compose(Boolean, prop('dogCount'))(person)
+// ↓
+const hasDogs = compose(Boolean, prop('dogCount'))
 ```
 
 ## Values
@@ -90,3 +116,5 @@ sources:
 - https://www.reddit.com/r/explainlikeimfive/comments/1qsfql/eli5_lambda_calculus/cdg3e2l
 - https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536
 - https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db
+- http://randycoulman.com/blog/categories/thinking-in-ramda/
+- http://package.elm-lang.org/packages/elm-lang/core/latest/Basics
