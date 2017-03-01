@@ -2,7 +2,7 @@
 
 ## The State - single and global
 
-The state is read-only. The only way to change it is by dispatching an action.
+The state is read-only (immutable). The only way to change it is by dispatching an action.
 
 ### Action
 
@@ -31,7 +31,6 @@ const counter = (state = 0, action) => {
 ```
 
 ## The Redux
-
 
 ```javascript
 // installed with npm
