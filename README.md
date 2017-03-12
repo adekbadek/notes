@@ -24,6 +24,7 @@
 
 ## misc 
 
+- [cordova](misc/cordova.md)
 - [rollup](misc/rollup.md)
 - [webvr](misc/webvr.md)
 
