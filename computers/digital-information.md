@@ -17,11 +17,13 @@ Are stored as number of seconds from 00:00:00 UTC Jan 1 1970. We'll run out of b
 
 ## Characters
 
-__ASCII__ - basic set, letters, numbers, symbols.
+__ASCII__ - basic set, letters, numbers, symbols (128 out of 255 possible combinations for a byte). __ANSI__ tried to codify the rest.
 
-__Unicode__ - newer standard that includes more characters.
+__Unicode__ - newer standard that includes more characters. Each symbol is represented by `U+`+hex string
 
-__UTF-8__ - standard for the web: each char is represented by `U+`+four digit hex number
+__UTF-8__ - standard for storing Unicode. `U+`+1-6 bytes.
+
+[*There ain't no such thing as plain text*](http://www.joelonsoftware.com/articles/Unicode.html) - there are only bytes, so one has to know the encoding to know what the bytes mean. In HTML, `<meta charset="utf-8" />` can be understood when it's on top of the document, because almost every encoding does the same with bytes 32-127 (can be read as anything to determine as what it should be read).
 
 ## Compression
 
