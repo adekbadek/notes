@@ -29,8 +29,6 @@ A good unit test should be:
 - **S**elf-verifying
 - **T**imely (TDD)
 
---
-
+---
 sources
-
-http://randycoulman.com/blog/categories/getting-testy/
+- http://randycoulman.com/blog/categories/getting-testy/
