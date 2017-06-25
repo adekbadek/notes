@@ -20,6 +20,7 @@
 
 ## js 
 
+- [future](js/future.md)
 - [react](js/react.md)
 - [redux](js/redux.md)
 - [typescript](js/typescript.md)
