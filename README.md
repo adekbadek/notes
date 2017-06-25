@@ -4,6 +4,7 @@
 - [bash](bash.md)
 - [irc](irc.md)
 - [screen](screen.md)
+- [testing](testing.md)
 
 ## crypto 
 
@@ -17,6 +18,12 @@
 - [digital-information](computers/digital-information.md)
 - [positional-sytems](computers/positional-sytems.md)
 
+## js 
+
+- [react](js/react.md)
+- [redux](js/redux.md)
+- [typescript](js/typescript.md)
+
 ## programming 
 
 - [functional-programming](programming/functional-programming.md)
@@ -27,11 +34,5 @@
 - [cordova](misc/cordova.md)
 - [rollup](misc/rollup.md)
 - [webvr](misc/webvr.md)
-
-## js 
-
-- [react](js/react.md)
-- [redux](js/redux.md)
-- [typescript](js/typescript.md)
 
 
