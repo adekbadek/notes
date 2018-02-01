@@ -69,3 +69,12 @@
   For emails - __S/MIME__ - provides integrity, but not necessarily confidentiality.
 
   __Non-repudiation__: You can't deny that you sent the message.
+
+## XORing (symbol is `⊕`)
+
+  aka how many bits are different (0 or 1)
+
+  | A   | 0 | 1 | 1 | 0 |
+  | -   | - |
+  | B   | 0 | 1 | 0 | 1 |
+  | A⊕B | 0 | 0 | 1 | 1 |
