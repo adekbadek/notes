@@ -1,9 +1,7 @@
 # notes
 
-- [aws](aws.md)
 - [bash](bash.md)
 - [irc](irc.md)
-- [screen](screen.md)
 - [testing](testing.md)
 
 ## crypto 
@@ -25,6 +23,11 @@
 - [redux](js/redux.md)
 - [typescript](js/typescript.md)
 
+## devops 
+
+- [aws](devops/aws.md)
+- [docker](devops/docker.md)
+
 ## programming 
 
 - [functional-programming](programming/functional-programming.md)
@@ -33,7 +36,9 @@
 ## misc 
 
 - [cordova](misc/cordova.md)
+- [progressive-web-apps](misc/progressive-web-apps.md)
 - [rollup](misc/rollup.md)
+- [screen](misc/screen.md)
 - [webvr](misc/webvr.md)
 
 
