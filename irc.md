@@ -40,8 +40,6 @@ IRC is sending stuff in plaintext, so it's __not secure__. And client's IP is us
 Even if encryption is used by one client, others may not use it, and server operators can keep logs.
 
 
---
-
+---
 sources:
-
-http://www.livinginternet.com/r/r.htm
+- http://www.livinginternet.com/r/r.htm
