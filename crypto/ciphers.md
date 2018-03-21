@@ -17,7 +17,11 @@ I | M | E | M | W
 
 > The primary weakness of the Vigenère cipher is the repeating nature of its key. If a cryptanalyst correctly guesses the key's length, then the cipher text can be treated as interwoven Caesar ciphers, which individually are easily broken. The Kasiski examination and Friedman test can help determine the key length.
 
-## Stream Ciphers
+## Bacon cipher
+
+Groups of five binary symbols (`0` & `1`), each group encodes a character. E.g. [typefaces on a cryptographer's tombstone](https://nakedsecurity.sophos.com/2018/01/22/famous-cryptographers-tombstone-cryptogram-decrypted/).
+
+# Stream Ciphers
 
 Consistency equation: `D(k, E(k, m)) = m`
 E is often randomized, D is always deterministic
