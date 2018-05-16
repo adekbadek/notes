@@ -23,8 +23,7 @@ A wallet has a __public address__, a __mnemonic seed__, and a pair of keys - __s
 
 A wallet program and a program running the Monero blockchain are needed. For some uses wallet program is enough, but not for making transactions or checking the balance.
 
-- `$ brew tap sammy007/cryptonight` - adds a brew tap (where Homebrew looks for formulae)
-- `$ brew install monero` - installs `monerod` and `monero-wallet-cli`
+- download the client [here](https://getmonero.org/downloads/)
 - `$ monerod` - starts running the blockchain
 - `$ monero-wallet-cli` - starts wallet program, without any flags it will generate a new wallet
 
