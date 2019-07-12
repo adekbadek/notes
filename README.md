@@ -9,6 +9,7 @@
 - [bitcoin](crypto/bitcoin.md)
 - [ciphers](crypto/ciphers.md)
 - [crypto](crypto/crypto.md)
+- [ethereum](crypto/ethereum.md)
 - [monero](crypto/monero.md)
 
 ## computers 
