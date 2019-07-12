@@ -7,6 +7,7 @@ list=$(git ls-files)
 
 root_files=""
 dir_files=""
+# create an associative array - required bash@4
 declare -A dir_files_list
 
 for filepath in $list
