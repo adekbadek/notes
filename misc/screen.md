@@ -1,6 +1,6 @@
 # screen
 
-`screen` is a program that let's you run detached processes on unix.
+`screen` is a program that lets you run detached processes on unix.
 
 e.g. log into a VPS, start a server, then safely exit the connection while leaving the server running.
 
